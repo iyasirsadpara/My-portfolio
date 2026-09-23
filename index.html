@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoli - Yasir Sadpara</title>
+    <title>Yasir Sadpara - Portfoli</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,6 +19,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#service">Services</a></li>
             <li><a href="#project">My Work</a></li>
+            <li><a href="#experience">Experience</a></li>
             
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -46,6 +47,7 @@
                 <li><a href="#about" onclick="closemenu()" >About</a></li>
                 <li><a href="#project" onclick="closemenu()" >Project</a></li>
                 <li><a href="#service" onclick="closemenu()" >Services</a></li>
+                <li><a href="#experience" onclick="closemenu()" >Experience</a></li>
                 <li><a href="#contact" onclick="closemenu()" >Contact</a></li>
             </ul>
         </div>
@@ -287,6 +289,54 @@
         hover:bg-teal-50 -translate-y-1 duration-500">Show more <img src="./images/right-arrow.png" alt=""
                 class="w-7"></a>
     </div>
+    <!-- ----------------Experience----------------- -->
+    <section id="experience" class="experience-section w-full px-[5%] md:px-[10%] py-16 scroll-mt-20">
+        <div class="text-center max-w-3xl mx-auto">
+            <h4 class="mb-2 text-lg text-gray-600">My journey</h4>
+            <h1 class="text-4xl md:text-5xl font-semibold mb-4">Professional Experience</h1>
+            <p class="text-gray-600 leading-relaxed">
+                A snapshot of the frontend, product, and design work that has shaped my approach to building for the web.
+            </p>
+        </div>
+        <div class="experience-timeline max-w-4xl mx-auto mt-14">
+            <article class="experience-item">
+                <div class="experience-marker" aria-hidden="true"></div>
+                <div class="experience-card">
+                    <p class="experience-period">Professional experience</p>
+                    <h2 class="text-2xl font-semibold mt-2">Frontend Web Developer</h2>
+                    <p class="experience-company">Microsoft</p>
+                    <p class="mt-4 leading-relaxed">
+                        Built responsive interfaces and accessible user experiences with a focus on clean component structure and reliable frontend performance.
+                    </p>
+                    <div class="experience-tags"><span>Frontend</span><span>Responsive UI</span><span>Accessibility</span></div>
+                </div>
+            </article>
+            <article class="experience-item">
+                <div class="experience-marker" aria-hidden="true"></div>
+                <div class="experience-card">
+                    <p class="experience-period">Professional experience</p>
+                    <h2 class="text-2xl font-semibold mt-2">Frontend Developer</h2>
+                    <p class="experience-company">Tesla</p>
+                    <p class="mt-4 leading-relaxed">
+                        Delivered polished web experiences by translating product requirements into responsive layouts and intuitive interactions.
+                    </p>
+                    <div class="experience-tags"><span>JavaScript</span><span>UI Engineering</span><span>Design systems</span></div>
+                </div>
+            </article>
+            <article class="experience-item">
+                <div class="experience-marker" aria-hidden="true"></div>
+                <div class="experience-card">
+                    <p class="experience-period">Professional experience</p>
+                    <h2 class="text-2xl font-semibold mt-2">UI/UX &amp; React Developer</h2>
+                    <p class="experience-company">Apple</p>
+                    <p class="mt-4 leading-relaxed">
+                        Combined visual design thinking with React development to create clear, engaging interfaces across desktop and mobile screens.
+                    </p>
+                    <div class="experience-tags"><span>React</span><span>UI/UX</span><span>Mobile-first</span></div>
+                </div>
+            </article>
+        </div>
+    </section>
     <!-- -------------contact me section--------------- -->
     <div id="contact"
         class="w-full px-[12%] py-5 scroll-mt-20 bg-[url('./images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center">
